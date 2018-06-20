@@ -1,0 +1,237 @@
+h2 {
+	font-size: 2em;
+	text-align: center;
+	font-family: Bookman, Palatino, serif;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+p	{
+	font-size: 20px;
+	font-family:"Times New Roman";
+}
+
+ul {
+	font-size: 20px;
+	font-family:"Times New Roman";
+}
+
+.header-wrapper {
+	display: grid;
+  	grid-template-columns: 15% 85%;
+  	grid-template-rows: 100%;
+	background-color: #FFF1DC;
+}
+
+.header {
+	font-size: 2.8em;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Bookman, Palatino, serif;
+	color: #5C3571;
+	vertical-align: middle;
+}
+
+.logo {
+	padding: 20px 10px 20px 10px;
+}
+
+#logo {
+	float: left;
+	margin: 20px;
+	margin-left: 60px;
+}
+
+.navigation-bar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+}
+
+.bc-link{
+	background:	#FFE38E;
+	border: solid thin #000;
+	padding: 10px;
+}
+
+.mv-link{
+	background: #29491B;
+	border: solid thin #000;
+	padding: 10px;
+}
+
+.blank{
+	grid-column: 3/5;
+	background:	#FFF1DC;
+	background-image: url("images/mountain.png");
+	background-repeat: no-repeat;
+	background-position: 50% 80%;
+}
+
+.rm-link{
+	background: #5C3571;
+	border: solid thin #000;
+	padding: 10px;
+}
+
+.sd-link{
+	background: #C66C36;
+	border: solid thin #000;
+	padding: 10px;
+}
+
+.link-pic{
+	display: block;
+	margin: auto;
+	border-radius: 15px;
+}
+
+.content > div{
+  	padding: 1em;
+}
+
+.content {
+	 display: grid;
+  	grid-template-columns: repeat(12, 1fr);
+  	grid-template-rows: repeat(12, 1fr);
+  	grid-auto-rows: minmax(100px, max-content)
+}
+
+.box1 {
+	grid-column: 1/2;
+	grid-row: 1/4;
+	background:	#FFE38E;
+}
+
+#black-canyon {
+	grid-column: 2/10;
+	grid-row: 1/4;
+	background: #FFECB4;
+	border: solid 1px;
+}
+
+.black-canyon-pic, .mesa-verde-pic {
+	float: right;
+	margin-left: 10px;
+	border: 5px solid #FFF;
+}
+
+.box3 {
+	grid-column: 10/11;
+	grid-row: 1/4;
+	background: #5C3571;
+}
+
+.box4 {
+	grid-column: 11/13;
+	grid-row: 1/4;
+	background: #C66C36;
+}
+
+.box5 {
+	grid-column: 1/3;
+	grid-row: 4/7;
+	background-color: #FFF1DC;;
+}
+
+.box6 {
+	grid-column: 3/4;
+	grid-row: 4/7;
+	background: #29491B;
+}
+
+#mesa-verde {
+	grid-column: 4/12;
+	grid-row: 4/7;
+	background: #A9C39D;
+	border: solid 1px;
+}
+
+.box8 {
+	grid-column: 12/13;
+	grid-row: 4/7;
+	background: #C66C36;
+}
+
+.box9 {
+	grid-column: 1/2;
+	grid-row: 7/10;
+	background-color: #FFF1DC;;
+}
+
+#rocky-mountain{
+    grid-column: 2/10;
+	grid-row: 7/10;
+	background: #BCAAC5;
+	border: solid 1px;
+}
+
+.rocky-mountain-pic, .sand-dunes-pic {
+	float: left;
+	margin-right: 10px;
+	border: 5px solid #FFF;	
+}
+
+.box11 {
+	grid-column: 10/11;
+	grid-row: 7/10;
+	background: #5C3571;
+}
+
+.box12 {
+	grid-column: 11/13;
+	grid-row: 7/10;
+	background: #C66C36;
+}
+
+.box13 {
+	grid-column: 1/4;
+	grid-row: 10/13;
+	background-color: #FFF1DC;;
+}
+
+#sand-dunes {
+	grid-column: 4/12;
+	grid-row: 10/13;
+	background: #EEB18D;
+	border: solid 1px;
+}
+
+.box15 {
+	grid-column: 12/13;
+	grid-row: 10/13;
+	background: #C66C36;
+}
+
+.bottom-links-1 {
+	float: left;
+	margin: 10px;
+}
+
+.bottom-links-2 {
+	float: right;
+	margin: 10px;
+}
+
+.your-fav {
+	background: #FFECB4;
+}
+
+fieldset {
+	padding-bottom: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+select {
+	font-size: 18px;
+}
+
+input {
+	font-size: 22px;
+}
+
+
+
+
+
